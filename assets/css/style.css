@@ -3,7 +3,8 @@
   box-sizing: border-box;
 }
 .fb,
-.twitter {
+.twitter,
+.yt {
   color: wheat;
 }
 body {
@@ -72,6 +73,7 @@ a {
     margin-top: 50px;
     padding-left: 10%;
     padding-right: 10%;
+    font-size: 30pt;
   }
 
   .about {
@@ -157,7 +159,7 @@ a {
     height: 60px;
     margin-left: 10%;
     border-color: #ec5242;
-    max-width: 500px;
+    max-width: 544px;
     margin-top: 20px;
     margin-bottom: 70px;
   }
@@ -169,6 +171,8 @@ a {
     backdrop-filter: blur(6px);
     padding: 15px;
     column-gap: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
   }
 
   .blog-description {
@@ -887,6 +891,7 @@ a {
   .about-main-section-item2 {
     padding-left: 20%;
     padding-right: 20%;
+    font-size: 30pt;
   }
 
   .about-join {
