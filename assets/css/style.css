@@ -101,7 +101,6 @@ a {
     gap: 40px;
     background-image: url("../images/blog-background.png");
     background-color: black;
-    height: 148vh;
     row-gap: 20px;
   }
 
@@ -482,18 +481,19 @@ a {
 
   .dsk-flex {
     display: flex;
+    flex: 1 0 15%;
     column-gap: 2%;
     padding-left: 8%;
     padding-right: 8%;
+    flex-wrap: wrap;
   }
 
   .blog-type {
     background-color: #272a31;
     opacity: 0.8;
     backdrop-filter: blur(6px);
-    width: 100% !important;
-    height: 250px;
     margin-top: 23px;
+    flex: 1 0 15%;
   }
 
   #our-blogers {
