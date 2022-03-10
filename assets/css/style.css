@@ -2,10 +2,17 @@
   font-family: "lato", sans-serif;
   box-sizing: border-box;
 }
-
+.fb,
+.twitter {
+  color: wheat;
+}
 body {
   padding: 0;
   margin: 0;
+}
+
+.active {
+  color: #ec5242;
 }
 
 .clip {
@@ -90,7 +97,9 @@ a {
     margin-left: 10%;
     margin-right: 10%;
   }
-
+  .pic-sub-title {
+    margin-left: 19%;
+  }
   .main-section {
     position: relative;
     background-image: url("../images/bg-mobile.png");
@@ -103,6 +112,7 @@ a {
 
   .welcome-title {
     font-size: 20px;
+    margin-top: 98px;
   }
 
   .main-section-item1 {
@@ -252,12 +262,12 @@ a {
     list-style-type: none;
     flex-direction: column;
     z-index: 6;
-    top: 117px;
-    left: 117px;
+    top: 249px;
+    left: 91px;
   }
 
   .menu-item {
-    color: #858a94;
+    color: #a6aab3;
     font-size: 23px;
     text-decoration: none;
   }
@@ -290,9 +300,19 @@ a {
     padding-right: 50px;
     width: 100%;
   }
-
+  .about-discription {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
   h1 {
     font-size: 36px;
+  }
+  .about-title1 {
+    padding-left: 17%;
+    padding-right: 6%;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
   }
 
   .blogger-name {
@@ -312,10 +332,9 @@ a {
   }
 
   .about-page-logo {
-    padding-left: 8%;
-    padding-right: 8%;
     width: 80%;
-    padding-top: 20px;
+    max-width: 323px;
+    padding-left: 14%;
   }
 
   .about-us {
@@ -334,13 +353,14 @@ a {
     border: #3e4042 1px solid;
     width: 100%;
     height: 120px;
+    align-items: center;
+    padding: 15px 10px 130px 50px;
   }
 
   .our-staff-pic {
     padding-left: 5%;
     padding-right: 5%;
-    filter:
-      grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-45deg)
+    filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-45deg)
       saturate(600%) contrast(0.8);
     top: 40px;
     width: 100%;
@@ -449,6 +469,15 @@ a {
     left: 38%;
     border-bottom: 1px solid #ec5242;
   }
+  .about-title1::after {
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 1px;
+    bottom: 0;
+    left: 38%;
+    border-bottom: 1px solid #ec5242;
+  }
 
   .mobile-hidden {
     display: none;
@@ -466,6 +495,7 @@ a {
   }
 
   .social-media-top {
+    position: relative;
     background-color: #272a31;
     display: flex;
     width: 100%;
@@ -473,7 +503,8 @@ a {
     justify-content: flex-end;
     column-gap: 3%;
     padding-right: 15%;
-    top: 0;
+    margin-top: 0px;
+    list-style-type: none;
   }
 
   .social-media-top-item {
@@ -750,7 +781,7 @@ a {
 
   .about-email {
     text-decoration: underline;
-    padding-left: 20%;
+    padding-left: 27%;
   }
 
   .contact {
@@ -779,11 +810,36 @@ a {
     padding-right: 20%;
   }
 
+  .about-title::after {
+    content: "";
+    position: absolute;
+    width: 7%;
+    height: 1px;
+    bottom: 0;
+    left: 56%;
+    border-bottom: 1px solid #ec5242;
+  }
+  .about-title1 {
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+    padding-left: 33%;
+    padding-right: 20%;
+  }
+
+  .about-title1::after {
+    content: "";
+    position: absolute;
+    width: 7%;
+    height: 1px;
+    bottom: 0;
+    left: 52%;
+    border-bottom: 1px solid #ec5242;
+  }
   .our-staff-pic {
     padding-left: 5%;
     padding-right: 5%;
-    filter:
-      grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-45deg)
+    filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-45deg)
       saturate(600%) contrast(0.8);
     top: 40px;
     width: 100%;
@@ -803,7 +859,7 @@ a {
   .on-image {
     position: absolute;
     top: 20%;
-    left: 27%;
+    left: 32%;
     color: white;
     font-size: 30px;
     width: 70%;
@@ -811,15 +867,15 @@ a {
 
   .image-description {
     position: absolute;
-    top: 45%;
-    left: 31%;
+    top: 38%;
+    left: 37%;
     color: white;
   }
 
   .image-description1 {
     position: absolute;
-    top: 58%;
-    left: 31%;
+    top: 38%;
+    left: 37%;
     color: white;
   }
 
@@ -834,9 +890,9 @@ a {
   }
 
   .about-join {
-    padding-left: 10%;
+    padding-left: 14%;
     padding-right: 20%;
-    width: 83%;
+    width: 88%;
   }
 
   .about-main {
@@ -846,9 +902,10 @@ a {
 
   .about-main-section-item3 {
     background-color: white;
-    width: 78%;
+    width: 70%;
     padding-left: 5%;
     padding-right: 5%;
+    margin-left: 10%;
   }
 
   .about-discription {
@@ -859,7 +916,7 @@ a {
   .logo-box {
     position: relative;
     margin-left: 30%;
-    border: #3e4042 1px solid;
+    border: #7b8085 1px solid;
     width: 40%;
     height: 120px;
   }
@@ -886,5 +943,17 @@ a {
   .about-rights {
     padding-top: 22px;
     color: white;
+  }
+  .about-main-section {
+    position: static;
+    background-image: url("../images/bg-mobile.png");
+    width: 100%;
+    background-size: cover;
+    min-height: 81vh;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 208px;
+    padding-top: 74px;
   }
 }

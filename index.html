@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
@@ -13,14 +14,13 @@
 </head>
 <body id="body">
     <header class="header">
-        <div class="mobile-hidden social-media-top">
-   <div ><img src="./assets/images/facebook.png" class="social-media-top-item1" alt="facebook" ></div>
- <div>  <img src="./assets/images/Twitter.png" class="social-media-top-item1" alt="twitter" ></div>
-   <div><p class="social-media-top-item">English</p> </div>
-  <div> <p class="social-media-top-item">My page</p></div>
-  <div> <p class="social-media-top-item">Logout</p></div>
-        </div>
-    
+        <ul class="mobile-hidden social-media-top">
+   <li class="fa fa-facebook fb" ></li>
+ <li class="fa fa-twitter twitter"> </li>
+   <li><p class="social-media-top-item">English</p> </li>
+  <li> <p class="social-media-top-item">My page</p></li>
+  <li> <p class="social-media-top-item">Logout</p></li>
+        </ul>
     <nav class="navigation">
         <div id="cover">
             <img id="close" src="./assets/images/close.png" alt="close window" class="dektop-hidden">
@@ -39,6 +39,7 @@
     <div class="dsk-nav-container mobile-hidden">
         <a href="index.html"><img src="./assets/images/logo.png" alt="logo" class="header-logo mobile-hidden"></a>
     <ul class="dsk-nav">
+        <li class="dsk-nav-items"><a class="active" href="./index.html">Home</a></li>
         <li class="dsk-nav-items"><a href="./about.html">About</a></li>
         <li class="dsk-nav-items"><a href="#">Blogs</a>
         </li>
@@ -74,11 +75,9 @@
         <h3 class="blog-type-section-title">Our Blogs</h3>
         <div class="dsk-flex">
     <div class="blog-type">
-        <div class="blog-container mobile-hidden">
         <img src="./assets/images/tech%20blog.png" class="blog-type-title" alt="tech blog">
         <h2 class="orange blog-title" >Tech Blog</h2>
         <p class="blog-description">We bring the best technology news that exists and deliver to our readers. Dont miss any tech</p>
-   </div>
     </div>
     <div class="blog-type">
         <img src="./assets/images/health-blog.png" class="blog-type-title" alt="tech blog">
@@ -115,7 +114,7 @@
 <li><img src="./assets/images/google.svg" class="parnter1"  alt="google"></li>
 <li> <h2 class="parnter2">NAVER</h2></li>
 <li> <h2 class="parnter2 mobile-hidden">daumkakao</h2></li>
-<li> <h2 class="parnter2 mobile-hidden">Samsung</h2></li>
+<li> <h2 class="parnter2 fa-brands fa-airbnb mobile-hidden">Samsung</h2></li>
 </ul>
 <ul class="parnter-group2">
     <li> <h2 class="parnter3 dektop-hidden">daumkakao</h2></li>
