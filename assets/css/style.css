@@ -11,7 +11,7 @@ body {
 .clip {
   background-image: url("../images/main-bg.jpg");
   background-size: cover;
-  background-clip: text;
+  background-clip: border-box;
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -60,6 +60,7 @@ a {
     height: 23px;
     left: 20px;
   }
+
   .about-main-section-item2 {
     margin-top: 50px;
     padding-left: 10%;
@@ -82,6 +83,7 @@ a {
     flex-wrap: wrap;
     gap: 10px;
   }
+
   .about-main-section-item3 {
     background-color: white;
     width: 78%;
@@ -98,9 +100,11 @@ a {
     flex-direction: column;
     top: 0;
   }
+
   .welcome-title {
     font-size: 20px;
   }
+
   .main-section-item1 {
     position: absolute;
     top: 70px;
@@ -125,10 +129,12 @@ a {
     position: absolute;
     top: 450px;
   }
+
   .about-main-section-item4 {
     padding-right: 15% !important;
     padding-bottom: 40px;
   }
+
   .our-blogs {
     background-image: url("../images/blog-background.png");
     background-color: black;
@@ -333,7 +339,8 @@ a {
   .our-staff-pic {
     padding-left: 5%;
     padding-right: 5%;
-    filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-45deg)
+    filter:
+      grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-45deg)
       saturate(600%) contrast(0.8);
     top: 40px;
     width: 100%;
@@ -377,9 +384,11 @@ a {
     height: 77px;
     top: 30px;
   }
+
   .our-blogger-and-top-blog {
     padding-bottom: 70px;
   }
+
   .parnter1 {
     width: 100px;
     height: 80px;
@@ -523,9 +532,11 @@ a {
   .dsk-nav-items {
     width: 250px;
   }
+
   .dsk-nav-items:hover {
     color: #ec5242;
   }
+
   .our-blogs {
     background-image: url("../images/blog-background.png");
     background-color: black;
@@ -550,6 +561,7 @@ a {
     margin-top: 23px;
     flex: 1 0 15%;
   }
+
   .blog-type:hover {
     border: 1px #858a94 solid;
   }
@@ -729,6 +741,7 @@ a {
   .time {
     padding-top: 28px;
   }
+
   .blog-title {
     padding-left: 19%;
   }
@@ -769,7 +782,8 @@ a {
   .our-staff-pic {
     padding-left: 5%;
     padding-right: 5%;
-    filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-45deg)
+    filter:
+      grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-45deg)
       saturate(600%) contrast(0.8);
     top: 40px;
     width: 100%;
