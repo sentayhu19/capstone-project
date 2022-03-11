@@ -409,8 +409,7 @@ a {
   .our-staff-pic {
     padding-left: 5%;
     padding-right: 5%;
-    filter:
-      grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-45deg)
+    filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-45deg)
       saturate(600%) contrast(0.8);
     top: 40px;
     width: 100%;
@@ -792,7 +791,7 @@ a {
 
   .main-section-item3 {
     position: absolute;
-    top: 398px;
+    top: 422px;
     background-color: white;
     padding-right: 10%;
     width: 40%;
@@ -892,8 +891,7 @@ a {
   .our-staff-pic {
     padding-left: 5%;
     padding-right: 5%;
-    filter:
-      grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-45deg)
+    filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-45deg)
       saturate(600%) contrast(0.8);
     top: 40px;
     width: 100%;
