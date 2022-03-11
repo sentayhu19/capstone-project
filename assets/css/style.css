@@ -573,7 +573,7 @@ a {
   .dsk-nav {
     list-style-type: none;
     display: flex;
-    margin-left: 42%;
+    margin-left: 32%;
     margin-top: -58px;
     padding-right: 5%;
     justify-content: space-between;
