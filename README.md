@@ -4,7 +4,7 @@
 
 > This project is about building Blog web app on capstone project using html,  css, and JavaScript
 
-![CESBlog design (20)](https://user-images.githubusercontent.com/69638013/136389071-42916a5d-633e-412e-87fa-43a84446953e.png)
+![CESBlog design (20)](https://github.com/sentayhu19/capstone-project/blob/mobile-and-desktop-version/assets/images/Screenshot.png)
 
 ## Live demo
 
