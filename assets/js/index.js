@@ -57,7 +57,10 @@ close.addEventListener('click', () => {
 });
 function bloggersList() {
   let renderAll = '';
+  let renderAllDsk = '';
   const renderblogger = document.getElementById('our-blogers');
+  const renderbloggerDesktop = document.getElementById('our-blogers-desktop');
+  let j = 0;
   ourBlogers.forEach((blogger) => {
     const render = `<div class="blogger-data">
     <div>
@@ -73,7 +76,31 @@ function bloggersList() {
     <!-- Bloger -->
     `;
     renderAll += render;
+    j += 1;
+    if (j === 2) {
+      renderAll += '<span class="less"></span> <span class="moreText">';
+    }
+    if (j === 6) {
+      renderAll += '</span>';
+    }
+    renderAllDsk += render;
   });
   renderblogger.innerHTML = renderAll;
+  renderbloggerDesktop.innerHTML = renderAllDsk;
+  const seeMore = document.querySelector('#see-more-less');
+  const ourBlogersSection = document.querySelector('#our-blogers');
+  seeMore.addEventListener('click', () => {
+    ourBlogersSection.classList.toggle('show-more');
+    const container = seeMore.innerText;
+    if (container === 'see Less') {
+      seeMore.innerHTML = 'See More'
+        + '&nbsp; <i id="updown" class="fa fa-angle-down" aria-hidden="true"></i>';
+      document.querySelector('.moreText').style.cssText = 'display: none;';
+    } else {
+      seeMore.innerHTML = 'see Less'
+        + '<i id="updown" class="fa fa-angle-up" aria-hidden="true"></i>';
+      document.querySelector('.moreText').style.cssText = 'display: block;';
+    }
+  });
 }
 bloggersList();

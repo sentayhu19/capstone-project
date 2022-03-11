@@ -3,10 +3,27 @@
   box-sizing: border-box;
 }
 
+#see-more-less {
+  width: 80%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  background-color: white;
+  border: 1px solid black;
+  height: 30px;
+}
+
+#updown {
+  color: #ec5242;
+}
+
+.rd {
+  color: #ec5242;
+}
+
 .fb,
-.twitter,
-.yt {
-  color: wheat;
+.twitter {
+  color: white;
 }
 
 body {
@@ -71,11 +88,20 @@ a {
     left: 20px;
   }
 
+  .moreText {
+    display: none;
+  }
+
   .about-main-section-item2 {
     margin-top: 50px;
     padding-left: 10%;
     padding-right: 10%;
     font-size: 30pt;
+  }
+
+  .about1 {
+    display: flex;
+    gap: 4%;
   }
 
   .about {
@@ -85,6 +111,10 @@ a {
     margin-bottom: 0;
     color: white;
     gap: 10%;
+  }
+
+  #our-blogers-desktop {
+    display: none;
   }
 
   .dsk-flex {
@@ -110,7 +140,7 @@ a {
     position: relative;
     background-image: url("../images/bg-mobile.png");
     width: 100%;
-    min-height: 96vh;
+    min-height: 98vh;
     display: flex;
     flex-direction: column;
     top: 0;
@@ -211,6 +241,14 @@ a {
   .our-blogers {
     display: flex;
     flex-direction: column;
+  }
+
+  #our-blogers.show-more.moreText {
+    display: inline;
+  }
+
+  #our-blogers.show-more.less {
+    display: none;
   }
 
   .blogger-picture {
@@ -356,7 +394,7 @@ a {
     padding-left: 17%;
     padding-right: 6%;
     display: inline-block;
-    padding-bottom: 5px;
+    padding-bottom: 14px;
     position: relative;
   }
 
@@ -497,7 +535,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
   .header {
     padding: 0;
     margin: 0;
@@ -535,10 +573,10 @@ a {
   .dsk-nav {
     list-style-type: none;
     display: flex;
-    gap: 9%;
     margin-left: 42%;
     margin-top: -58px;
-    padding-right: 15%;
+    padding-right: 5%;
+    justify-content: space-between;
   }
 
   .dsk-nav-container {
@@ -610,7 +648,7 @@ a {
     border: 1px #858a94 solid;
   }
 
-  #our-blogers {
+  #our-blogers-desktop {
     display: grid;
     grid-template-columns: auto auto;
     padding-left: 15%;
@@ -817,7 +855,7 @@ a {
 
   .about-title {
     display: inline-block;
-    padding-bottom: 5px;
+    padding-bottom: 13px;
     position: relative;
     padding-left: 40%;
     padding-right: 20%;
@@ -835,7 +873,7 @@ a {
 
   .about-title1 {
     display: inline-block;
-    padding-bottom: 5px;
+    padding-bottom: 13px;
     position: relative;
     padding-left: 33%;
     padding-right: 20%;
@@ -912,6 +950,10 @@ a {
     width: 88%;
   }
 
+  #our-blogers {
+    display: none;
+  }
+
   .about-main {
     display: flex;
     flex-direction: column;
@@ -973,5 +1015,15 @@ a {
     flex-direction: column;
     padding-left: 208px;
     padding-top: 74px;
+  }
+
+  #see-more-less {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  .dsk-nav {
+    padding-right: 15%;
   }
 }
