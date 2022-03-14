@@ -542,7 +542,7 @@ a {
   }
 
   .dektop-hidden {
-    display: none;
+    display: none !important;
   }
 
   .social-media-top {
@@ -721,7 +721,7 @@ a {
     list-style-type: none;
     gap: 2%;
     width: 100%;
-    padding-left: 23%;
+    justify-content: center;
     padding-top: 12px;
   }
 
