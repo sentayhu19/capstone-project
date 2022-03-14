@@ -1,0 +1,1029 @@
+* {
+  font-family: "lato", sans-serif;
+  box-sizing: border-box;
+}
+
+#see-more-less {
+  width: 80%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  background-color: white;
+  border: 1px solid black;
+  height: 30px;
+}
+
+#updown {
+  color: #ec5242;
+}
+
+.rd {
+  color: #ec5242;
+}
+
+.fb,
+.twitter {
+  color: white;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.active {
+  color: #ec5242;
+}
+
+.clip {
+  background-image: url("../images/main-bg.jpg");
+  background-size: cover;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.partners {
+  background-color: #272a31;
+  width: 100%;
+}
+
+.blogger-name {
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.blogger-detail {
+  font-size: small;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cocogoose-rd {
+  font-family: "COCOGOOSE", sans-serif;
+}
+
+.cocogoose {
+  font-family: "COCOGOOSE", sans-serif;
+  color: #2b2d31;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+}
+
+.orange {
+  color: #ec5242;
+}
+
+@media only screen and (max-width: 768px) {
+  .hamburger {
+    position: relative;
+    width: 40px;
+    top: 30px;
+    height: 23px;
+    left: 20px;
+  }
+
+  .moreText {
+    display: none;
+  }
+
+  .about-main-section-item2 {
+    margin-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 30pt;
+  }
+
+  .about1 {
+    display: flex;
+    gap: 4%;
+  }
+
+  .about {
+    display: flex;
+    background-color: #2b2d31;
+    padding-top: 10%;
+    margin-bottom: 0;
+    color: white;
+    gap: 10%;
+  }
+
+  #our-blogers-desktop {
+    display: none;
+  }
+
+  .dsk-flex {
+    display: flex;
+    flex: 1 0 15%;
+    column-gap: 2%;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .about-main-section-item3 {
+    background-color: white;
+    width: 78%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .pic-sub-title {
+    margin-left: 19%;
+  }
+
+  .main-section {
+    position: relative;
+    background-image: url("../images/bg-mobile.png");
+    width: 100%;
+    min-height: 98vh;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+  }
+
+  .welcome-title {
+    font-size: 20px;
+    margin-top: 98px;
+  }
+
+  .main-section-item1 {
+    position: absolute;
+    top: 70px;
+    color: #ec5242;
+  }
+
+  .main-section-item2 {
+    position: absolute;
+    top: 96px;
+    color: #ec5242;
+  }
+
+  .main-section-item3 {
+    position: absolute;
+    top: 341px;
+    background-color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .main-section-item4 {
+    position: absolute;
+    top: 450px;
+  }
+
+  .about-main-section-item4 {
+    padding-right: 15% !important;
+    padding-bottom: 40px;
+  }
+
+  .our-blogs {
+    background-image: url("../images/blog-background.png");
+    background-color: black;
+  }
+
+  .signup-btn {
+    background-color: #ec5242;
+    color: white;
+    width: 80%;
+    height: 60px;
+    margin-left: 10%;
+    border-color: #ec5242;
+    max-width: 544px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+  }
+
+  .blog-type {
+    background-color: #272a31;
+    opacity: 0.8;
+    display: flex;
+    backdrop-filter: blur(6px);
+    padding: 15px;
+    column-gap: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+
+  .blog-description {
+    color: white;
+    width: 60%;
+  }
+
+  .about-heaading {
+    top: 1%;
+    left: 12%;
+  }
+
+  .blog-type-section-title {
+    color: white;
+    justify-content: center;
+    display: inline-block;
+    padding-bottom: 15px;
+    position: relative;
+    padding-left: 44%;
+  }
+
+  .blog-type-section-title::after {
+    content: "";
+    position: absolute;
+    width: 17%;
+    height: 1px;
+    bottom: 0;
+    left: 78%;
+    border-bottom: 1px solid #ec5242;
+  }
+
+  .our-blogers {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #our-blogers.show-more.moreText {
+    display: inline;
+  }
+
+  #our-blogers.show-more.less {
+    display: none;
+  }
+
+  .blogger-picture {
+    position: relative;
+    width: 152px;
+    height: 152px;
+    z-index: 3;
+    bottom: 44px;
+    left: 13px;
+  }
+
+  .blogger-data {
+    display: flex;
+    column-gap: 8%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .image-black-and-white {
+    width: 57px;
+    height: 73px;
+    z-index: 2;
+  }
+
+  .parnter-group1 {
+    display: flex;
+    list-style-type: none;
+    gap: 2%;
+    width: 100%;
+  }
+
+  .parnter-group2 {
+    display: flex;
+    list-style-type: none;
+    gap: 6%;
+    padding-left: 17%;
+    width: 100%;
+  }
+
+  #cover {
+    display: none;
+  }
+
+  #close {
+    position: relative;
+    top: 41px;
+    display: none;
+    float: right;
+    width: 25px;
+    height: 25px;
+    right: 30px;
+  }
+
+  #menu {
+    position: relative;
+    display: none;
+    list-style-type: none;
+    flex-direction: column;
+    z-index: 6;
+    top: 249px;
+    left: 91px;
+  }
+
+  .menu-item {
+    color: #a6aab3;
+    font-size: 23px;
+    text-decoration: none;
+  }
+
+  #menu li {
+    padding-bottom: 15px;
+  }
+
+  .blog-type-title {
+    width: 100px;
+    filter: invert(80%);
+  }
+
+  .blog-title {
+    width: 115px;
+  }
+
+  .blog-company-info {
+    display: flex;
+  }
+
+  .logo {
+    width: 162px;
+    height: 80px;
+    padding-left: 28px;
+  }
+
+  .rights {
+    padding-left: 90px;
+    padding-right: 50px;
+    width: 100%;
+  }
+
+  .about-discription {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  .about-title1 {
+    padding-left: 17%;
+    padding-right: 6%;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+  }
+
+  .blogger-name {
+    font-weight: bolder;
+    font-size: x-large;
+  }
+
+  /* ************ About page ****************************************************** */
+  .about-email {
+    text-decoration: underline;
+    padding-left: 20%;
+  }
+
+  .contact {
+    padding-left: 15%;
+    width: 90%;
+  }
+
+  .about-page-logo {
+    width: 80%;
+    max-width: 323px;
+    padding-left: 14%;
+  }
+
+  .about-us {
+    background-color: white;
+  }
+
+  .about-title {
+    padding-left: 31%;
+    padding-right: 6%;
+    display: inline-block;
+    padding-bottom: 14px;
+    position: relative;
+  }
+
+  .logo-box {
+    border: #3e4042 1px solid;
+    width: 100%;
+    height: 120px;
+    align-items: center;
+    padding: 15px 10px 130px 50px;
+  }
+
+  .our-staff-pic {
+    padding-left: 5%;
+    padding-right: 5%;
+    filter:
+      grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-45deg)
+      saturate(600%) contrast(0.8);
+    top: 40px;
+    width: 100%;
+  }
+
+  .container-staff {
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .on-image {
+    position: absolute;
+    top: 20%;
+    left: 27%;
+    color: white;
+    font-size: 30px;
+    width: 70%;
+  }
+
+  .image-description {
+    position: absolute;
+    top: 45%;
+    left: 31%;
+    color: white;
+  }
+
+  .image-description1 {
+    position: absolute;
+    top: 58%;
+    left: 31%;
+    color: white;
+  }
+
+  .logo-ham {
+    display: flex;
+    gap: 10%;
+  }
+
+  .header-logo {
+    width: 187px;
+    height: 77px;
+    top: 30px;
+  }
+
+  .our-blogger-and-top-blog {
+    padding-bottom: 70px;
+  }
+
+  .parnter1 {
+    width: 100px;
+    height: 80px;
+  }
+
+  .parnter2 {
+    font-weight: bolder;
+    color: #858a94;
+  }
+
+  .parnter3 {
+    color: #858a94;
+  }
+
+  .partners-title {
+    color: white;
+    margin-left: 30%;
+    left: 20px;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+  }
+
+  .our-blogger-title {
+    margin-left: 35%;
+    left: 20px;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+  }
+
+  .partners-title::after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 25%;
+    border-bottom: 1px solid #ec5242;
+  }
+
+  .our-blogger-title::after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 25%;
+    border-bottom: 1px solid #ec5242;
+  }
+
+  .about-title::after {
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 1px;
+    bottom: 0;
+    left: 55%;
+    border-bottom: 1px solid #ec5242;
+  }
+
+  .about-title1::after {
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 1px;
+    bottom: 0;
+    left: 38%;
+    border-bottom: 1px solid #ec5242;
+  }
+
+  .mobile-hidden {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .header {
+    padding: 0;
+    margin: 0;
+  }
+
+  .dektop-hidden {
+    display: none !important;
+  }
+
+  .social-media-top {
+    position: relative;
+    background-color: #272a31;
+    display: flex;
+    width: 100%;
+    height: 20px;
+    justify-content: flex-end;
+    column-gap: 3%;
+    padding-right: 15%;
+    margin-top: 0;
+    list-style-type: none;
+  }
+
+  .social-media-top-item {
+    margin-top: 0;
+    color: white;
+    top: 5px;
+  }
+
+  .social-media-top-item1 {
+    margin-top: 0;
+    width: 20px;
+    height: 19px;
+  }
+
+  .dsk-nav {
+    list-style-type: none;
+    display: flex;
+    margin-left: 32%;
+    margin-top: -58px;
+    padding-right: 5%;
+    justify-content: space-between;
+  }
+
+  .dsk-nav-container {
+    background-color: #fff;
+    width: 100%;
+    height: 30px;
+  }
+
+  .header-logo {
+    position: relative;
+    width: 132px;
+    height: 83px;
+    margin-left: 17%;
+    top: 3px;
+  }
+
+  .main-section {
+    position: static;
+    background-image: url("../images/bg-mobile.png");
+    width: 100%;
+    background-size: cover;
+    min-height: 96vh;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 208px;
+    padding-top: 74px;
+  }
+
+  .parnter1 {
+    width: 100px;
+    height: 80px;
+  }
+
+  .dsk-nav-items {
+    width: 250px;
+  }
+
+  .dsk-nav-items:hover {
+    color: #ec5242;
+  }
+
+  .our-blogs {
+    background-image: url("../images/blog-background.png");
+    background-color: black;
+    width: 100%;
+    height: 450px;
+    max-height: 120vh;
+  }
+
+  .dsk-flex {
+    display: flex;
+    flex: 1 0 15%;
+    padding-left: 8%;
+    padding-right: 8%;
+    flex-wrap: wrap;
+    column-gap: 3px;
+  }
+
+  .blog-type {
+    background-color: #272a31;
+    opacity: 0.8;
+    backdrop-filter: blur(6px);
+    margin-top: 23px;
+    flex: 1 0 15%;
+  }
+
+  .blog-type:hover {
+    border: 1px #858a94 solid;
+  }
+
+  #our-blogers-desktop {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 15%;
+    gap: 5%;
+  }
+
+  .blogger-picture {
+    width: 160px;
+    height: 160px;
+    z-index: 3;
+    margin-top: -50px;
+    margin-left: 30px;
+  }
+
+  .image-black-and-white {
+    width: 90px;
+    height: 73px;
+    z-index: 2;
+  }
+
+  .blogger-data {
+    display: flex;
+    width: 75%;
+  }
+
+  .blogger-detail {
+    padding-left: 15px;
+  }
+
+  .partners {
+    margin-top: 81px;
+    height: 250px;
+  }
+
+  .blog-company-info {
+    display: flex;
+    gap: 20%;
+    padding-left: 20%;
+  }
+
+  .rights {
+    padding-top: 22px;
+  }
+
+  .blog-type-title {
+    filter: invert(80%);
+    padding-left: 32%;
+    padding-top: 5%;
+    height: 59px;
+  }
+
+  .blog-description {
+    color: white;
+    width: 100%;
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+
+  .parnter2 {
+    font-weight: bolder;
+    color: #858a94;
+  }
+
+  .parnter3 {
+    color: #858a94;
+  }
+
+  .parnter-group1 {
+    display: flex;
+    list-style-type: none;
+    gap: 2%;
+    width: 100%;
+    justify-content: center;
+    padding-top: 12px;
+  }
+
+  .parnter-group2 {
+    display: none;
+  }
+
+  .partners-title {
+    color: white;
+    margin-left: 40%;
+    left: 20px;
+    display: inline-block;
+    padding-bottom: 9px;
+    position: relative;
+  }
+
+  .our-blogger-title {
+    color: black;
+    margin-left: 40%;
+    left: 20px;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 20px;
+  }
+
+  .partners-title::after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 25%;
+    border-bottom: 1px solid #ec5242;
+  }
+
+  .our-blogger-title::after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 25%;
+    border-bottom: 1px solid #ec5242;
+  }
+
+  .blog-type-section-title {
+    color: white;
+    margin-left: 40%;
+    left: 20px;
+    display: inline-block;
+    padding-bottom: 9px;
+    position: relative;
+  }
+
+  .blog-type-section-title::after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 25%;
+    border-bottom: 1px solid #ec5242;
+  }
+
+  .blogger-name {
+    padding-left: 15px;
+  }
+
+  .main-section-item3 {
+    position: absolute;
+    top: 422px;
+    background-color: white;
+    padding-right: 10%;
+    width: 40%;
+  }
+
+  .start-bloging-container {
+    border: 5px #ec5242 solid;
+    width: 130px;
+    height: 35px;
+  }
+
+  .start-blog {
+    color: #ec5242;
+    padding-left: 17px;
+    margin-top: 1px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .main-section-item2 {
+    position: relative;
+    top: -55px;
+    color: #ec5242;
+  }
+
+  .time {
+    padding-top: 41px;
+  }
+
+  .blog-title {
+    padding-left: 19%;
+  }
+
+  /* --------------------    About section dsk ------------------------ */
+
+  .about-email {
+    text-decoration: underline;
+    padding-left: 27%;
+  }
+
+  .contact {
+    padding-left: 15%;
+    width: 90%;
+  }
+
+  .about-page-logo {
+    padding-right: 8%;
+    padding-top: 20px;
+    width: 70%;
+    height: 120px;
+    padding-left: 39%;
+    padding-bottom: 20px;
+  }
+
+  .about-us {
+    background-color: white;
+  }
+
+  .about-title {
+    display: inline-block;
+    padding-bottom: 13px;
+    position: relative;
+    padding-left: 40%;
+    padding-right: 20%;
+  }
+
+  .about-title::after {
+    content: "";
+    position: absolute;
+    width: 7%;
+    height: 1px;
+    bottom: 0;
+    left: 56%;
+    border-bottom: 1px solid #ec5242;
+  }
+
+  .about-title1 {
+    display: inline-block;
+    padding-bottom: 13px;
+    position: relative;
+    padding-left: 33%;
+    padding-right: 20%;
+  }
+
+  .about-title1::after {
+    content: "";
+    position: absolute;
+    width: 7%;
+    height: 1px;
+    bottom: 0;
+    left: 52%;
+    border-bottom: 1px solid #ec5242;
+  }
+
+  .our-staff-pic {
+    padding-left: 5%;
+    padding-right: 5%;
+    filter:
+      grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-45deg)
+      saturate(600%) contrast(0.8);
+    top: 40px;
+    width: 100%;
+    height: 380px;
+  }
+
+  .our-staff-pic:hover {
+    transform: scale(1.1);
+    border: #3e4042;
+  }
+
+  .container-staff {
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .on-image {
+    position: absolute;
+    top: 20%;
+    left: 32%;
+    color: white;
+    font-size: 30px;
+    width: 70%;
+  }
+
+  .image-description {
+    position: absolute;
+    top: 38%;
+    left: 37%;
+    color: white;
+  }
+
+  .image-description1 {
+    position: absolute;
+    top: 38%;
+    left: 37%;
+    color: white;
+  }
+
+  .main-section-item1 {
+    color: #ec5242;
+    font-size: 30px;
+  }
+
+  .about-main-section-item2 {
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 30pt;
+  }
+
+  .about-join {
+    padding-left: 14%;
+    padding-right: 20%;
+    width: 88%;
+  }
+
+  #our-blogers {
+    display: none;
+  }
+
+  .about-main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-main-section-item3 {
+    background-color: white;
+    width: 70%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 10%;
+  }
+
+  .about-discription {
+    padding-left: 24%;
+    padding-right: 20%;
+  }
+
+  .logo-box {
+    position: relative;
+    margin-left: 30%;
+    border: #7b8085 1px solid;
+    width: 40%;
+    height: 120px;
+  }
+
+  .our-blogger-and-top-blog {
+    display: flex;
+    margin-left: 18%;
+    padding-bottom: 6%;
+    width: 80%;
+  }
+
+  .pic-sub-title {
+    padding-left: 46%;
+  }
+
+  .about-blog-company-info {
+    display: flex;
+    gap: 10%;
+    padding-left: 10%;
+    background-color: #272a31;
+    padding-top: 4%;
+  }
+
+  .about-rights {
+    padding-top: 22px;
+    color: white;
+  }
+
+  .about-main-section {
+    position: static;
+    background-image: url("../images/bg-mobile.png");
+    width: 100%;
+    background-size: cover;
+    min-height: 81vh;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 208px;
+    padding-top: 74px;
+  }
+
+  #see-more-less {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  .dsk-nav {
+    padding-right: 15%;
+  }
+}
